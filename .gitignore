@@ -3,7 +3,7 @@
 *.iml
 .idea/
 target/
-src/main/resources/static/
+wx-admin/src/main/resources/static/
 .settings/
 .vscode/
 .classpath
