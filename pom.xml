@@ -12,6 +12,7 @@
     <modules>
         <module>wx-admin</module>
         <module>wx-mn-api</module>
+        <module>wx-base-tool</module>
     </modules>
 
     <parent>

@@ -19,6 +19,13 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <dependencies>
+        <dependency>
+            <artifactId>wx-base-tool</artifactId>
+            <groupId>com.wexin.biz</groupId>
+            <version>0.8.2</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <finalName>${project.artifactId}</finalName>
@@ -41,10 +48,10 @@
                 </configuration>
             </plugin>
         </plugins>
-       <!-- <resources>
-            <resource>
-                <directory>wx-admin/src/main/resources/</directory>
-            </resource>
-        </resources>-->
+        <!-- <resources>
+             <resource>
+                 <directory>wx-admin/src/main/resources/</directory>
+             </resource>
+         </resources>-->
     </build>
 </project>
